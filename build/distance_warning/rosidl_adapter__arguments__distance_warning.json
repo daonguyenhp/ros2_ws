@@ -1,0 +1,7 @@
+{
+  "package_name": "distance_warning",
+  "non_idl_tuples": [
+    "/home/daonguyenhp2311/ros2_ws/src/distance_warning:srv/SetThreshold.srv",
+    "/home/daonguyenhp2311/ros2_ws/src/distance_warning:action/CheckDistance.action"
+  ]
+}

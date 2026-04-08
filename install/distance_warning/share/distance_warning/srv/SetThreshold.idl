@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from distance_warning/srv/SetThreshold.srv
+// generated code does not contain a copyright notice
+
+
+module distance_warning {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct SetThreshold_Request {
+      @verbatim (language="comment", text=
+        "true = tăng, false = giảm")
+      boolean increase;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct SetThreshold_Response {
+      boolean success;
+
+      float new_threshold;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/distance_warning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/distance_warning/action/detail/check_distance__type_support.c.o"
+  "CMakeFiles/distance_warning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/distance_warning/action/detail/check_distance__type_support.c.o.d"
+  "CMakeFiles/distance_warning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/distance_warning/srv/detail/set_threshold__type_support.c.o"
+  "CMakeFiles/distance_warning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/distance_warning/srv/detail/set_threshold__type_support.c.o.d"
+  "libdistance_warning__rosidl_typesupport_introspection_c.pdb"
+  "libdistance_warning__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/distance_warning/action/detail/check_distance__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/distance_warning/action/detail/check_distance__type_support.c"
+  "rosidl_typesupport_introspection_c/distance_warning/srv/detail/set_threshold__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/distance_warning/srv/detail/set_threshold__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/distance_warning__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

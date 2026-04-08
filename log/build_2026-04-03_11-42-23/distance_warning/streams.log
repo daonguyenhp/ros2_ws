@@ -1,0 +1,48 @@
+[0.015s] Invoking command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/daonguyenhp2311/ros2_ws/build/distance_warning -- -j20 -l20
+[0.087s] [  2%] Built target distance_warning__rs
+[0.088s] [ 10%] Built target distance_warning__rosidl_generator_c
+[0.088s] [ 13%] Built target distance_warning__cpp
+[0.093s] [ 17%] Built target distance_publisher
+[0.094s] [ 21%] Built target distance_listener
+[0.104s] [ 21%] Built target ament_cmake_python_copy_distance_warning
+[0.109s] [ 30%] Built target distance_warning__rosidl_typesupport_introspection_c
+[0.109s] [ 39%] Built target distance_warning__rosidl_typesupport_fastrtps_c
+[0.111s] [ 56%] Built target distance_warning__rosidl_typesupport_c
+[0.111s] [ 54%] Built target distance_warning__rosidl_typesupport_cpp
+[0.111s] [ 65%] Built target distance_warning__rosidl_typesupport_introspection_cpp
+[0.114s] [ 73%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp
+[0.130s] [ 73%] Built target distance_warning
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target set_threshold_service[0m
+[0.146s] [ 76%] Built target distance_warning__py
+[0.153s] [ 78%] [32mBuilding CXX object CMakeFiles/set_threshold_service.dir/src/set_threshold_service.cpp.o[0m
+[0.166s] [ 84%] Built target distance_warning__rosidl_generator_py
+[0.184s] [ 93%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext
+[0.184s] [ 93%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext
+[0.185s] [ 97%] Built target distance_warning__rosidl_typesupport_c__pyext
+[0.266s] running egg_info
+[0.266s] writing distance_warning.egg-info/PKG-INFO
+[0.266s] writing dependency_links to distance_warning.egg-info/dependency_links.txt
+[0.267s] writing top-level names to distance_warning.egg-info/top_level.txt
+[0.270s] reading manifest file 'distance_warning.egg-info/SOURCES.txt'
+[0.271s] writing manifest file 'distance_warning.egg-info/SOURCES.txt'
+[0.289s] [ 97%] Built target ament_cmake_python_build_distance_warning_egg
+[1.976s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:[m[K In member function ‘[01m[Kvoid SetThresholdService::handleSetThreshold(distance_warning::srv::SetThreshold_Request_<std::allocator<void> >::SharedPtr, distance_warning::srv::SetThreshold_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.976s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:61:32:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSetThresholdService::set_parameter(const char [10], double&)[m[K’
+[1.976s]    61 |             [01;31m[Kthis->set_parameter("threshold", new_threshold)[m[K;
+[1.976s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.976s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.976s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.976s]                  from [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:1[m[K:
+[1.976s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)[m[K’
+[1.976s]   555 |   [01;36m[Kset_parameter[m[K(const rclcpp::Parameter & parameter);
+[1.976s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[1.978s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[1.982s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.982s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:76:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[1.982s]    76 |     [01;35m[Krclcpp[m[K:spin(std::make_shared<SetThresholdService>());
+[1.982s]       |     [01;35m[K^~~~~~[m[K
+[2.405s] gmake[2]: *** [CMakeFiles/set_threshold_service.dir/build.make:76: CMakeFiles/set_threshold_service.dir/src/set_threshold_service.cpp.o] Error 1
+[2.405s] gmake[1]: *** [CMakeFiles/Makefile2:669: CMakeFiles/set_threshold_service.dir/all] Error 2
+[2.405s] gmake: *** [Makefile:146: all] Error 2
+[2.407s] Invoked command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/daonguyenhp2311/ros2_ws/build/distance_warning -- -j20 -l20

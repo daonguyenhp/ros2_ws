@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000160] (distance_warning) JobQueued: {'identifier': 'distance_warning', 'dependencies': OrderedDict()}
+[0.000971] (distance_warning) JobStarted: {'identifier': 'distance_warning'}
+[0.010383] (distance_warning) JobProgress: {'identifier': 'distance_warning', 'progress': 'cmake'}
+[0.011356] (distance_warning) JobProgress: {'identifier': 'distance_warning', 'progress': 'build'}
+[0.011963] (distance_warning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daonguyenhp2311/ros2_ws/build/distance_warning', '--', '-j20', '-l20'], 'cwd': '/home/daonguyenhp2311/ros2_ws/build/distance_warning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'daonguyenhp2311'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{a48ca040-b733-5089-a206-42688bea3b46}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/daonguyenhp2311'), ('OLDPWD', '/home/daonguyenhp2311'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daonguyenhp2311'), ('NAME', 'LAPTOP-QH4D9121'), ('WSL_INTEROP', '/run/WSL/348_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/flutter/flutter_windows_3.32.4-stable/flutter/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Java/jdk-25/bin:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2025.1/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/flutter/flutter_windows_3.32.4-stable/flutter/bin:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/c/Program Files/Java/jdk-25/bin:/snap/bin'), ('WT_SESSION', '4d9060d4-6569-4ea2-9344-bb1a13e93892'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/daonguyenhp2311/ros2_ws/build/distance_warning'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.069834] (distance_warning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.102095] (-) TimerEvent: {}
+[0.182975] (distance_warning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.203643] (-) TimerEvent: {}
+[0.311348] (-) TimerEvent: {}
+[0.365338] (distance_warning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.368130] (distance_warning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.375303] (distance_warning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.385105] (distance_warning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.396926] (distance_warning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.412531] (-) TimerEvent: {}
+[0.432618] (distance_warning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.434895] (distance_warning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.518419] (-) TimerEvent: {}
+[0.621281] (-) TimerEvent: {}
+[0.729008] (-) TimerEvent: {}
+[0.829427] (-) TimerEvent: {}
+[0.934620] (-) TimerEvent: {}
+[1.042346] (-) TimerEvent: {}
+[1.149682] (-) TimerEvent: {}
+[1.257404] (-) TimerEvent: {}
+[1.365134] (-) TimerEvent: {}
+[1.472861] (-) TimerEvent: {}
+[1.580585] (-) TimerEvent: {}
+[1.688370] (-) TimerEvent: {}
+[1.796106] (-) TimerEvent: {}
+[1.903859] (-) TimerEvent: {}
+[2.011603] (-) TimerEvent: {}
+[2.119377] (-) TimerEvent: {}
+[2.226832] (-) TimerEvent: {}
+[2.334569] (-) TimerEvent: {}
+[2.442319] (-) TimerEvent: {}
+[2.550080] (-) TimerEvent: {}
+[2.657824] (-) TimerEvent: {}
+[2.765601] (-) TimerEvent: {}
+[2.873347] (-) TimerEvent: {}
+[2.981095] (-) TimerEvent: {}
+[3.088847] (-) TimerEvent: {}
+[3.196627] (-) TimerEvent: {}
+[3.304173] (-) TimerEvent: {}
+[3.411935] (-) TimerEvent: {}
+[3.519678] (-) TimerEvent: {}
+[3.627929] (-) TimerEvent: {}
+[3.731128] (-) TimerEvent: {}
+[3.840163] (-) TimerEvent: {}
+[3.949191] (-) TimerEvent: {}
+[4.058241] (-) TimerEvent: {}
+[4.167470] (-) TimerEvent: {}
+[4.276518] (-) TimerEvent: {}
+[4.385308] (-) TimerEvent: {}
+[4.494357] (-) TimerEvent: {}
+[4.603403] (-) TimerEvent: {}
+[4.712482] (-) TimerEvent: {}
+[4.821610] (-) TimerEvent: {}
+[4.930690] (-) TimerEvent: {}
+[5.039751] (-) TimerEvent: {}
+[5.148812] (-) TimerEvent: {}
+[5.257852] (-) TimerEvent: {}
+[5.366884] (-) TimerEvent: {}
+[5.475883] (-) TimerEvent: {}
+[5.580534] (-) TimerEvent: {}
+[5.689552] (-) TimerEvent: {}
+[5.798575] (-) TimerEvent: {}
+[5.907702] (-) TimerEvent: {}
+[5.984104] (distance_warning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.009885] (-) TimerEvent: {}
+[6.038063] (distance_warning) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[6.072021] (distance_warning) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.113413] (-) TimerEvent: {}
+[6.222457] (-) TimerEvent: {}
+[6.264736] (distance_warning) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.327769] (-) TimerEvent: {}
+[6.428058] (-) TimerEvent: {}
+[6.479921] (distance_warning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.532541] (-) TimerEvent: {}
+[6.560930] (distance_warning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.577596] (distance_warning) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.594306] (distance_warning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.594416] (distance_warning) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.594449] (distance_warning) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.636104] (-) TimerEvent: {}
+[6.649200] (distance_warning) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[6.649332] (distance_warning) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[6.649368] (distance_warning) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[6.649394] (distance_warning) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.649418] (distance_warning) StderrLine: {'line': b'  CMakeLists.txt:41 (rosidl_target_interfaces)\n'}
+[6.649442] (distance_warning) StderrLine: {'line': b'\n'}
+[6.649467] (distance_warning) StderrLine: {'line': b'\x1b[0m\n'}
+[6.651064] (distance_warning) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.667171] (distance_warning) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.667524] (distance_warning) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.667586] (distance_warning) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.668324] (distance_warning) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.669335] (distance_warning) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.669405] (distance_warning) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.669547] (distance_warning) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.671704] (distance_warning) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.723743] (distance_warning) StdoutLine: {'line': b'-- Generating done\n'}
+[6.737405] (-) TimerEvent: {}
+[6.739317] (distance_warning) StdoutLine: {'line': b'-- Build files have been written to: /home/daonguyenhp2311/ros2_ws/build/distance_warning\n'}
+[6.769222] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_c\x1b[0m\n'}
+[6.770785] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_listener\x1b[0m\n'}
+[6.771692] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_publisher\x1b[0m\n'}
+[6.777212] (distance_warning) StdoutLine: {'line': b'[  2%] Built target distance_warning__rs\n'}
+[6.778483] (distance_warning) StdoutLine: {'line': b'[  4%] Built target distance_warning__cpp\n'}
+[6.781289] (distance_warning) StdoutLine: {'line': b'[ 13%] Built target distance_warning__rosidl_generator_c\n'}
+[6.784724] (distance_warning) StdoutLine: {'line': b'[ 17%] Built target distance_listener\n'}
+[6.787405] (distance_warning) StdoutLine: {'line': b'[ 21%] Built target distance_publisher\n'}
+[6.789865] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.791226] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.791377] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.791519] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.792191] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c\x1b[0m\n'}
+[6.795307] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.796690] (distance_warning) StdoutLine: {'line': b'[ 21%] Built target ament_cmake_python_copy_distance_warning\n'}
+[6.801139] (distance_warning) StdoutLine: {'line': b'[ 30%] Built target distance_warning__rosidl_typesupport_introspection_cpp\n'}
+[6.801833] (distance_warning) StdoutLine: {'line': b'[ 39%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp\n'}
+[6.802469] (distance_warning) StdoutLine: {'line': b'[ 47%] Built target distance_warning__rosidl_typesupport_cpp\n'}
+[6.802740] (distance_warning) StdoutLine: {'line': b'[ 56%] Built target distance_warning__rosidl_typesupport_fastrtps_c\n'}
+[6.803358] (distance_warning) StdoutLine: {'line': b'[ 65%] Built target distance_warning__rosidl_typesupport_c\n'}
+[6.807245] (distance_warning) StdoutLine: {'line': b'[ 73%] Built target distance_warning__rosidl_typesupport_introspection_c\n'}
+[6.823232] (distance_warning) StdoutLine: {'line': b'[ 73%] Built target distance_warning\n'}
+[6.837784] (-) TimerEvent: {}
+[6.839155] (distance_warning) StdoutLine: {'line': b'[ 76%] Built target distance_warning__py\n'}
+[6.839323] (distance_warning) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/set_threshold_service.dir/src/set_threshold_service.cpp.o\x1b[0m\n'}
+[6.847955] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_py\x1b[0m\n'}
+[6.857433] (distance_warning) StdoutLine: {'line': b'[ 84%] Built target distance_warning__rosidl_generator_py\n'}
+[6.865712] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.865977] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.866037] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.875623] (distance_warning) StdoutLine: {'line': b'[ 93%] Built target distance_warning__rosidl_typesupport_c__pyext\n'}
+[6.875845] (distance_warning) StdoutLine: {'line': b'[ 91%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.876163] (distance_warning) StdoutLine: {'line': b'[ 97%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext\n'}
+[6.938316] (-) TimerEvent: {}
+[6.952301] (distance_warning) StdoutLine: {'line': b'running egg_info\n'}
+[6.952733] (distance_warning) StdoutLine: {'line': b'writing distance_warning.egg-info/PKG-INFO\n'}
+[6.953125] (distance_warning) StdoutLine: {'line': b'writing dependency_links to distance_warning.egg-info/dependency_links.txt\n'}
+[6.953345] (distance_warning) StdoutLine: {'line': b'writing top-level names to distance_warning.egg-info/top_level.txt\n'}
+[6.956034] (distance_warning) StdoutLine: {'line': b"reading manifest file 'distance_warning.egg-info/SOURCES.txt'\n"}
+[6.956763] (distance_warning) StdoutLine: {'line': b"writing manifest file 'distance_warning.egg-info/SOURCES.txt'\n"}
+[6.974151] (distance_warning) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_distance_warning_egg\n'}
+[7.043200] (-) TimerEvent: {}
+[7.152287] (-) TimerEvent: {}
+[7.261480] (-) TimerEvent: {}
+[7.370228] (-) TimerEvent: {}
+[7.479525] (-) TimerEvent: {}
+[7.583451] (-) TimerEvent: {}
+[7.691102] (-) TimerEvent: {}
+[7.799908] (-) TimerEvent: {}
+[7.909178] (-) TimerEvent: {}
+[8.013132] (-) TimerEvent: {}
+[8.122202] (-) TimerEvent: {}
+[8.231468] (-) TimerEvent: {}
+[8.337246] (-) TimerEvent: {}
+[8.446436] (-) TimerEvent: {}
+[8.555619] (-) TimerEvent: {}
+[8.623307] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:10:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.623495] (distance_warning) StderrLine: {'line': b'   10 | class SetThresholdService : public rclcpp\x1b[01;31m\x1b[K:\x1b[m\x1b[KNode {\n'}
+[8.623582] (distance_warning) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.623616] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:10:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.623644] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:10:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.625540] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.625619] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:76:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::spin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.625651] (distance_warning) StderrLine: {'line': b'   76 |     rclcpp:\x1b[01;31m\x1b[Kspin\x1b[m\x1b[K(std::make_shared<SetThresholdService>());\n'}
+[8.625677] (distance_warning) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.625700] (distance_warning) StderrLine: {'line': b'      |            \x1b[32m\x1b[Krclcpp::spin\x1b[m\x1b[K\n'}
+[8.625722] (distance_warning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.625745] (distance_warning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:1\x1b[m\x1b[K:\n'}
+[8.625770] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::spin\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.625800] (distance_warning) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[8.625822] (distance_warning) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.628004] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:76:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Klabel \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label\x07-Wunused-label\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.628074] (distance_warning) StderrLine: {'line': b'   76 |     \x1b[01;35m\x1b[Krclcpp\x1b[m\x1b[K:spin(std::make_shared<SetThresholdService>());\n'}
+[8.628105] (distance_warning) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[8.657888] (-) TimerEvent: {}
+[8.767031] (-) TimerEvent: {}
+[8.841926] (distance_warning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:60\x1b[m\x1b[K,\n'}
+[8.842077] (distance_warning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[8.842113] (distance_warning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[8.842141] (distance_warning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[8.842168] (distance_warning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:1\x1b[m\x1b[K:\n'}
+[8.842194] (distance_warning) StderrLine: {'line': b'/usr/include/c++/11/ext/aligned_buffer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct __gnu_cxx::__aligned_buffer<SetThresholdService>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.842220] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<SetThresholdService, std::allocator<SetThresholdService>, __gnu_cxx::_S_atomic>::_Impl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842254] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<SetThresholdService, std::allocator<SetThresholdService>, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842280] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SetThresholdService; _Alloc = std::allocator<SetThresholdService>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842308] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SetThresholdService>; _Args = {}; _Tp = SetThresholdService; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842338] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SetThresholdService>; _Args = {}; _Tp = SetThresholdService]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842363] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SetThresholdService; _Alloc = std::allocator<SetThresholdService>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842389] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SetThresholdService; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842414] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/set_threshold_service.cpp:76:54:\x1b[m\x1b[K   required from here\n'}
+[8.842437] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KSetThresholdService\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842462] (distance_warning) StderrLine: {'line': b'   91 |     : std::aligned_storage<\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K, __alignof__(_Tp)>\n'}
+[8.842486] (distance_warning) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.842509] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KSetThresholdService\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.869531] (-) TimerEvent: {}
+[8.914701] (distance_warning) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/set_threshold_service.dir/build.make:76: CMakeFiles/set_threshold_service.dir/src/set_threshold_service.cpp.o] Error 1\n'}
+[8.914921] (distance_warning) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:669: CMakeFiles/set_threshold_service.dir/all] Error 2\n'}
+[8.915047] (distance_warning) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.917100] (distance_warning) CommandEnded: {'returncode': 2}
+[8.932099] (distance_warning) JobEnded: {'identifier': 'distance_warning', 'rc': 2}
+[8.942904] (-) EventReactorShutdown: {}

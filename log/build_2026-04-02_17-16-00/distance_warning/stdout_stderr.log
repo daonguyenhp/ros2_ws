@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target distance_publisher[0m
+[  2%] Built target distance_warning__cpp
+[  4%] Built target distance_warning__rs
+[ 14%] Built target distance_warning__rosidl_generator_c
+[ 16%] [32mBuilding CXX object CMakeFiles/distance_publisher.dir/src/distance_publisher.cpp.o[0m
+[ 16%] Built target ament_cmake_python_copy_distance_warning
+[ 26%] Built target distance_warning__rosidl_typesupport_cpp
+[ 45%] Built target distance_warning__rosidl_typesupport_introspection_cpp
+[ 45%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target distance_warning__rosidl_typesupport_c
+[ 64%] Built target distance_warning__rosidl_typesupport_fastrtps_c
+[ 73%] Built target distance_warning__rosidl_typesupport_introspection_c
+[ 73%] Built target distance_warning
+[ 76%] Built target distance_warning__py
+[ 83%] Built target distance_warning__rosidl_generator_py
+[ 88%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext
+[ 92%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target distance_warning__rosidl_typesupport_c__pyext
+running egg_info
+writing distance_warning.egg-info/PKG-INFO
+writing dependency_links to distance_warning.egg-info/dependency_links.txt
+writing top-level names to distance_warning.egg-info/top_level.txt
+reading manifest file 'distance_warning.egg-info/SOURCES.txt'
+writing manifest file 'distance_warning.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_distance_warning_egg
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:[m[K In constructor ‘[01m[KDistancePublisher::DistancePublisher()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+   17 |             [01;31m[Kgen[m[K = mt19937(rd());
+      |             [01;31m[K^~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:[m[K In member function ‘[01m[Kvoid DistancePublisher::timerCallBack()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:26:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+   26 |             msg.data = dis([01;31m[Kgen[m[K);
+      |                            [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/distance_publisher.dir/build.make:76: CMakeFiles/distance_publisher.dir/src/distance_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:611: CMakeFiles/distance_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

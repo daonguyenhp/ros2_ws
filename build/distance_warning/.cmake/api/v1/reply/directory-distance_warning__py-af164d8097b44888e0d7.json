@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "distance_warning__py",
+		"source" : "/home/daonguyenhp2311/ros2_ws/build/distance_warning/distance_warning__py"
+	}
+}

@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daonguyenhp2311/ros2_ws/build/distance_warning -- -j20 -l20
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target distance_publisher[0m
+[0.046s] [  2%] Built target distance_warning__rs
+[0.047s] [  4%] Built target distance_warning__cpp
+[0.048s] [ 14%] Built target distance_warning__rosidl_generator_c
+[0.051s] [ 16%] [32mBuilding CXX object CMakeFiles/distance_publisher.dir/src/distance_publisher.cpp.o[0m
+[0.053s] [ 16%] Built target ament_cmake_python_copy_distance_warning
+[0.066s] [ 26%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp
+[0.066s] [ 35%] Built target distance_warning__rosidl_typesupport_cpp
+[0.067s] [ 45%] Built target distance_warning__rosidl_typesupport_introspection_cpp
+[0.072s] [ 54%] Built target distance_warning__rosidl_typesupport_introspection_c
+[0.073s] [ 64%] Built target distance_warning__rosidl_typesupport_fastrtps_c
+[0.075s] [ 73%] Built target distance_warning__rosidl_typesupport_c
+[0.090s] [ 73%] Built target distance_warning
+[0.106s] [ 76%] Built target distance_warning__py
+[0.125s] [ 83%] Built target distance_warning__rosidl_generator_py
+[0.142s] [ 88%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext
+[0.142s] [ 92%] Built target distance_warning__rosidl_typesupport_c__pyext
+[0.143s] [ 97%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext
+[0.208s] running egg_info
+[0.208s] writing distance_warning.egg-info/PKG-INFO
+[0.208s] writing dependency_links to distance_warning.egg-info/dependency_links.txt
+[0.209s] writing top-level names to distance_warning.egg-info/top_level.txt
+[0.210s] reading manifest file 'distance_warning.egg-info/SOURCES.txt'
+[0.210s] writing manifest file 'distance_warning.egg-info/SOURCES.txt'
+[0.229s] [ 97%] Built target ament_cmake_python_build_distance_warning_egg
+[1.731s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:[m[K In member function ‘[01m[Kvoid DistancePublisher::timerCallBack()[m[K’:
+[1.731s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:26:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+[1.731s]    26 |             msg.data = dis([01;31m[Kgen[m[K);
+[1.731s]       |                            [01;31m[K^~~[m[K
+[2.281s] gmake[2]: *** [CMakeFiles/distance_publisher.dir/build.make:76: CMakeFiles/distance_publisher.dir/src/distance_publisher.cpp.o] Error 1
+[2.281s] gmake[1]: *** [CMakeFiles/Makefile2:611: CMakeFiles/distance_publisher.dir/all] Error 2
+[2.281s] gmake: *** [Makefile:146: all] Error 2
+[2.285s] Invoked command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daonguyenhp2311/ros2_ws/build/distance_warning -- -j20 -l20

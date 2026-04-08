@@ -1,0 +1,11 @@
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:[m[K In constructor ‘[01m[KDistancePublisher::DistancePublisher()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+   17 |             [01;31m[Kgen[m[K = mt19937(rd());
+      |             [01;31m[K^~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:[m[K In member function ‘[01m[Kvoid DistancePublisher::timerCallBack()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:26:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+   26 |             msg.data = dis([01;31m[Kgen[m[K);
+      |                            [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/distance_publisher.dir/build.make:76: CMakeFiles/distance_publisher.dir/src/distance_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:611: CMakeFiles/distance_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

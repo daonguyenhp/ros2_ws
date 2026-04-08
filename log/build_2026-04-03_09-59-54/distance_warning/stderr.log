@@ -1,0 +1,19 @@
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_listener.cpp:24:61:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kusing Float32 = struct std_msgs::msg::Float32_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Float32_<std::allocator<void> >[m[K’} does not name a type
+   24 |         void listenerCallBack(const std_msgs::msg::Float32::[01;31m[KSharePtr[m[K msg)
+      |                                                             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_listener.cpp:[m[K In constructor ‘[01m[KDistanceListener::DistanceListener()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_listener.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   15 |             [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Float32>("distance_topic", 10,
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Krmw_subscription_t[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_listener.cpp:16:28:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   16 |                 std::bind(&[01;31m[KMinimalSubscriber[m[K::listenerCallBack, this, std::placeholders::_1));
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_listener.cpp:[m[K In member function ‘[01m[Kvoid DistanceListener::listenerCallBack(int)[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_listener.cpp:26:34:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   26 |             double distance = msg[01;31m[K->[m[Kdata;
+      |                                  [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/distance_listener.dir/build.make:76: CMakeFiles/distance_listener.dir/src/distance_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:639: CMakeFiles/distance_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

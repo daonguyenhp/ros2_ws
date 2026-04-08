@@ -1,0 +1,11 @@
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:[m[K In member function ‘[01m[Kvoid DistancePublisher::timerCallBack()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:26:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+   26 |             msg.data = dis([01;31m[Kgen[m[K);
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher.cpp:28:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpublish_[m[K’; did you mean ‘[01m[Kpublish[m[K’?
+   28 |             publisher_ ->[01;31m[Kpublish_[m[K(msg);
+      |                          [01;31m[K^~~~~~~~[m[K
+      |                          [32m[Kpublish[m[K
+gmake[2]: *** [CMakeFiles/distance_publisher.dir/build.make:76: CMakeFiles/distance_publisher.dir/src/distance_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:611: CMakeFiles/distance_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

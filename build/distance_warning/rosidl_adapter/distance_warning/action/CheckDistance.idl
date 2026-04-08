@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from distance_warning/action/CheckDistance.action
+// generated code does not contain a copyright notice
+
+
+module distance_warning {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct CheckDistance_Goal {
+      float distance_to_check;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct CheckDistance_Result {
+      boolean is_safe;
+
+      string result_message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct CheckDistance_Feedback {
+      int32 step;
+
+      int32 total_steps;
+
+      string feedback_msg;
+    };
+  };
+};

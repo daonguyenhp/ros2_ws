@@ -1,0 +1,33 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:41 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:46 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_action_server.cpp:[m[K In constructor ‘[01m[KDistanceActionServer::DistanceActionServer()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_action_server.cpp:18:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+   18 |                 std::bind(&DistanceActionServer::handleGoal, this, [01;31m[K...[m[K),
+      |                                                                    [01;31m[K^~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_action_server.cpp:19:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+   19 |                 std::bind(&DistanceActionServer::handleCancel, this, [01;31m[K...[m[K),
+      |                                                                      [01;31m[K^~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_action_server.cpp:20:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+   20 |                 std::bind(&DistanceActionServer::handleAccepted, this, [01;31m[K...[m[K));
+      |                                                                        [01;31m[K^~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_action_server.cpp:[m[K In member function ‘[01m[Kvoid DistanceActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<distance_warning::action::CheckDistance> >)[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_action_server.cpp:57:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrps[m[K’ was not declared in this scope; did you mean ‘[01m[Ksteps[m[K’?
+   57 |             for (size_t i = 0; i < [01;31m[Kstrps[m[K.size(); ++i) {
+      |                                    [01;31m[K^~~~~[m[K
+      |                                    [32m[Ksteps[m[K
+gmake[2]: *** [CMakeFiles/distance_action_server.dir/build.make:76: CMakeFiles/distance_action_server.dir/src/distance_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:699: CMakeFiles/distance_action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
