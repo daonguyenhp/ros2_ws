@@ -1,0 +1,39 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:45 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:50 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:55 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:66 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:[m[K In member function ‘[01m[Kvoid DistancePublisherQoS::publishReliable()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:49:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpub_reliable_[m[K’
+   49 |             [01;31m[Kpub_reliable_[m[K = public(msg)
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:[m[K In member function ‘[01m[Kvoid DistancePublisherQoS::publishBestEffort()[m[K’:
+[01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:59:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpub_best_effort_[m[K’
+   59 |             [01;31m[Kpub_best_effort_[m[K = public(msg)
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/distance_publisher_qos.dir/build.make:76: CMakeFiles/distance_publisher_qos.dir/src/distance_publisher_qos.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:815: CMakeFiles/distance_publisher_qos.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

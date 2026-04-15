@@ -1,0 +1,127 @@
+[0.017s] Invoking command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daonguyenhp2311/ros2_ws/build/distance_warning -- -j20 -l20
+[0.122s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.231s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.387s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.390s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.452s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.454s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.709s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.739s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.748s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[5.765s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[5.805s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.809s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.811s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.993s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.300s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.318s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.318s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.318s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.373s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[6.373s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[6.373s]   rosidl_target_interfaces()
+[6.373s] Call Stack (most recent call first):
+[6.373s]   CMakeLists.txt:45 (rosidl_target_interfaces)
+[6.373s] 
+[6.373s] [0m
+[6.373s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[6.373s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[6.373s]   rosidl_target_interfaces()
+[6.373s] Call Stack (most recent call first):
+[6.373s]   CMakeLists.txt:50 (rosidl_target_interfaces)
+[6.373s] 
+[6.374s] [0m
+[6.374s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[6.374s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[6.374s]   rosidl_target_interfaces()
+[6.374s] Call Stack (most recent call first):
+[6.374s]   CMakeLists.txt:55 (rosidl_target_interfaces)
+[6.374s] 
+[6.374s] [0m
+[6.375s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[6.375s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[6.375s]   rosidl_target_interfaces()
+[6.375s] Call Stack (most recent call first):
+[6.375s]   CMakeLists.txt:66 (rosidl_target_interfaces)
+[6.375s] 
+[6.375s] [0m
+[6.377s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.393s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.393s] -- Configured cppcheck include dirs: 
+[6.393s] -- Configured cppcheck exclude dirs and/or files: 
+[6.394s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.394s] -- Added test 'lint_cmake' to check CMake code style
+[6.395s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.395s] -- Added test 'uncrustify' to check C / C++ code style
+[6.395s] -- Configured uncrustify additional arguments: 
+[6.396s] -- Added test 'xmllint' to check XML markup files
+[6.397s] -- Configuring done
+[6.479s] -- Generating done
+[6.499s] -- Build files have been written to: /home/daonguyenhp2311/ros2_ws/build/distance_warning
+[6.526s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_c[0m
+[6.529s] [35m[1mConsolidate compiler generated dependencies of target distance_listener[0m
+[6.530s] [35m[1mConsolidate compiler generated dependencies of target distance_tf_broadcaster[0m
+[6.531s] [35m[1mConsolidate compiler generated dependencies of target distance_publisher[0m
+[6.534s] [  1%] Built target distance_warning__rs
+[6.535s] [  3%] Built target distance_warning__cpp
+[6.536s] [  5%] [32mBuilding CXX object CMakeFiles/distance_publisher_qos.dir/src/distance_publisher_qos.cpp.o[0m
+[6.544s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_cpp[0m
+[6.544s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_cpp[0m
+[6.545s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_cpp[0m
+[6.546s] [ 12%] Built target distance_warning__rosidl_generator_c
+[6.549s] [ 12%] Built target ament_cmake_python_copy_distance_warning
+[6.555s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c[0m
+[6.556s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c[0m
+[6.556s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c[0m
+[6.560s] [ 19%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp
+[6.561s] [ 26%] Built target distance_warning__rosidl_typesupport_introspection_cpp
+[6.562s] [ 33%] Built target distance_warning__rosidl_typesupport_cpp
+[6.566s] [ 42%] Built target distance_warning__rosidl_typesupport_introspection_c
+[6.566s] [ 48%] Built target distance_warning__rosidl_typesupport_c
+[6.568s] [ 55%] Built target distance_listener
+[6.568s] [ 55%] Built target distance_publisher
+[6.569s] [ 62%] Built target distance_warning__rosidl_typesupport_fastrtps_c
+[6.572s] [ 66%] Built target distance_tf_broadcaster
+[6.583s] [ 66%] Built target distance_warning
+[6.592s] [35m[1mConsolidate compiler generated dependencies of target set_threshold_service[0m
+[6.594s] [35m[1mConsolidate compiler generated dependencies of target distance_action_client[0m
+[6.594s] [35m[1mConsolidate compiler generated dependencies of target distance_action_server[0m
+[6.595s] [35m[1mConsolidate compiler generated dependencies of target distance_tf_listener[0m
+[6.599s] [ 67%] Built target distance_warning__py
+[6.605s] [ 71%] Built target set_threshold_service
+[6.607s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_py[0m
+[6.609s] [ 75%] Built target distance_action_client
+[6.610s] [ 78%] Built target distance_action_server
+[6.611s] [ 82%] Built target distance_tf_listener
+[6.618s] [ 87%] Built target distance_warning__rosidl_generator_py
+[6.626s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c__pyext[0m
+[6.626s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.627s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c__pyext[0m
+[6.635s] [ 94%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext
+[6.635s] [ 94%] Built target distance_warning__rosidl_typesupport_c__pyext
+[6.635s] [ 98%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext
+[6.705s] running egg_info
+[6.706s] writing distance_warning.egg-info/PKG-INFO
+[6.706s] writing dependency_links to distance_warning.egg-info/dependency_links.txt
+[6.707s] writing top-level names to distance_warning.egg-info/top_level.txt
+[6.709s] reading manifest file 'distance_warning.egg-info/SOURCES.txt'
+[6.710s] writing manifest file 'distance_warning.egg-info/SOURCES.txt'
+[6.727s] [ 98%] Built target ament_cmake_python_build_distance_warning_egg
+[8.381s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:[m[K In member function ‘[01m[Kvoid DistancePublisherQoS::publishReliable()[m[K’:
+[8.381s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:49:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpub_reliable_[m[K’
+[8.381s]    49 |             [01;31m[Kpub_reliable_[m[K = public(msg)
+[8.381s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[8.381s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:[m[K In member function ‘[01m[Kvoid DistancePublisherQoS::publishBestEffort()[m[K’:
+[8.381s] [01m[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:59:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpub_best_effort_[m[K’
+[8.381s]    59 |             [01;31m[Kpub_best_effort_[m[K = public(msg)
+[8.381s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.878s] gmake[2]: *** [CMakeFiles/distance_publisher_qos.dir/build.make:76: CMakeFiles/distance_publisher_qos.dir/src/distance_publisher_qos.cpp.o] Error 1
+[8.878s] gmake[1]: *** [CMakeFiles/Makefile2:815: CMakeFiles/distance_publisher_qos.dir/all] Error 2
+[8.878s] gmake: *** [Makefile:146: all] Error 2
+[8.880s] Invoked command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daonguyenhp2311/ros2_ws/build/distance_warning -- -j20 -l20

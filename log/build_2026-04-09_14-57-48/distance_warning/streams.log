@@ -1,0 +1,294 @@
+[0.018s] Invoking command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daonguyenhp2311/ros2_ws/build/distance_warning -- -j20 -l20
+[0.138s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.667s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.672s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.683s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.764s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.768s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.055s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.117s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.153s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.169s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[8.194s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.251s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.318s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.320s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.320s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.541s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.886s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.907s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.907s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.907s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.966s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[8.966s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[8.967s]   rosidl_target_interfaces()
+[8.967s] Call Stack (most recent call first):
+[8.967s]   CMakeLists.txt:45 (rosidl_target_interfaces)
+[8.967s] 
+[8.967s] [0m
+[8.967s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[8.967s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[8.967s]   rosidl_target_interfaces()
+[8.967s] Call Stack (most recent call first):
+[8.967s]   CMakeLists.txt:50 (rosidl_target_interfaces)
+[8.967s] 
+[8.967s] [0m
+[8.967s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[8.967s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[8.967s]   rosidl_target_interfaces()
+[8.967s] Call Stack (most recent call first):
+[8.968s]   CMakeLists.txt:55 (rosidl_target_interfaces)
+[8.968s] 
+[8.968s] [0m
+[8.970s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.993s] -- Configured cppcheck include dirs: 
+[8.993s] -- Configured cppcheck exclude dirs and/or files: 
+[8.993s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.994s] -- Added test 'lint_cmake' to check CMake code style
+[8.995s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.996s] -- Added test 'uncrustify' to check C / C++ code style
+[8.996s] -- Configured uncrustify additional arguments: 
+[8.996s] -- Added test 'xmllint' to check XML markup files
+[9.000s] -- Configuring done
+[9.079s] -- Generating done
+[9.096s] -- Build files have been written to: /home/daonguyenhp2311/ros2_ws/build/distance_warning
+[9.129s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_c[0m
+[9.129s] [35m[1mConsolidate compiler generated dependencies of target distance_publisher[0m
+[9.129s] [35m[1mConsolidate compiler generated dependencies of target distance_listener[0m
+[9.138s] [  1%] Built target distance_warning__cpp
+[9.141s] [  3%] [32mBuilding CXX object CMakeFiles/distance_tf_broadcaster.dir/src/distance_tf_broadcaster.cpp.o[0m
+[9.141s] [  5%] Built target distance_warning__rs
+[9.149s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_cpp[0m
+[9.149s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_cpp[0m
+[9.151s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_cpp[0m
+[9.151s] [ 13%] Built target distance_warning__rosidl_generator_c
+[9.156s] [ 13%] Built target ament_cmake_python_copy_distance_warning
+[9.163s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c[0m
+[9.163s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c[0m
+[9.163s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c[0m
+[9.167s] [ 28%] Built target distance_warning__rosidl_typesupport_cpp
+[9.167s] [ 28%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp
+[9.167s] [ 36%] Built target distance_warning__rosidl_typesupport_introspection_cpp
+[9.173s] [ 44%] Built target distance_warning__rosidl_typesupport_c
+[9.175s] [ 57%] Built target distance_warning__rosidl_typesupport_fastrtps_c
+[9.175s] [ 61%] Built target distance_warning__rosidl_typesupport_introspection_c
+[9.175s] [ 63%] Built target distance_listener
+[9.178s] [ 67%] Built target distance_publisher
+[9.191s] [ 67%] Built target distance_warning
+[9.202s] [35m[1mConsolidate compiler generated dependencies of target distance_action_client[0m
+[9.203s] [35m[1mConsolidate compiler generated dependencies of target set_threshold_service[0m
+[9.204s] [35m[1mConsolidate compiler generated dependencies of target distance_action_server[0m
+[9.210s] [ 69%] Built target distance_warning__py
+[9.216s] [ 73%] Built target set_threshold_service
+[9.218s] [ 76%] Built target distance_action_client
+[9.220s] [ 80%] Built target distance_action_server
+[9.220s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_py[0m
+[9.234s] [ 86%] Built target distance_warning__rosidl_generator_py
+[9.243s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c__pyext[0m
+[9.243s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.244s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c__pyext[0m
+[9.252s] [ 90%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext
+[9.253s] [ 94%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext
+[9.255s] [ 98%] Built target distance_warning__rosidl_typesupport_c__pyext
+[9.338s] running egg_info
+[9.338s] writing distance_warning.egg-info/PKG-INFO
+[9.339s] writing dependency_links to distance_warning.egg-info/dependency_links.txt
+[9.339s] writing top-level names to distance_warning.egg-info/top_level.txt
+[9.342s] reading manifest file 'distance_warning.egg-info/SOURCES.txt'
+[9.342s] writing manifest file 'distance_warning.egg-info/SOURCES.txt'
+[9.361s] [ 98%] Built target ament_cmake_python_build_distance_warning_egg
+[15.879s] [100%] [32m[1mLinking CXX executable distance_tf_broadcaster[0m
+[16.384s] [100%] Built target distance_tf_broadcaster
+[16.394s] Invoked command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daonguyenhp2311/ros2_ws/build/distance_warning -- -j20 -l20
+[16.402s] Invoking command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daonguyenhp2311/ros2_ws/build/distance_warning
+[16.407s] -- Install configuration: ""
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/rosidl_interfaces/distance_warning
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_generator_c__visibility_control.h
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__struct.h
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__functions.h
+[16.408s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__type_support.h
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__functions.c
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/check_distance.h
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__type_support.h
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__functions.h
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__functions.c
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__struct.h
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/set_threshold.h
+[16.409s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/library_path.sh
+[16.409s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/library_path.dsv
+[16.410s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_generator_c.so
+[16.411s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning
+[16.411s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg
+[16.411s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.411s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action
+[16.411s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail
+[16.411s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__rosidl_typesupport_fastrtps_c.h
+[16.411s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv
+[16.411s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail
+[16.412s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__rosidl_typesupport_fastrtps_c.h
+[16.412s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_fastrtps_c.so
+[16.413s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning
+[16.413s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg
+[16.413s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.413s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action
+[16.413s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/check_distance.hpp
+[16.413s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail
+[16.413s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__traits.hpp
+[16.413s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__struct.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__type_support.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__builder.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__type_support.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__builder.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__struct.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__traits.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/set_threshold.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__rosidl_typesupport_fastrtps_cpp.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/dds_fastrtps
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__rosidl_typesupport_fastrtps_cpp.hpp
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/dds_fastrtps
+[16.414s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_fastrtps_cpp.so
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__rosidl_typesupport_introspection_c.h
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__type_support.c
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__rosidl_typesupport_introspection_c.h
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__type_support.c
+[16.415s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_introspection_c.so
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_c.so
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__rosidl_typesupport_introspection_cpp.hpp
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__type_support.cpp
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail
+[16.416s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__type_support.cpp
+[16.417s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__rosidl_typesupport_introspection_cpp.hpp
+[16.417s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_introspection_cpp.so
+[16.418s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_cpp.so
+[16.418s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/pythonpath.sh
+[16.418s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/pythonpath.dsv
+[16.418s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info
+[16.418s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info/top_level.txt
+[16.418s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.419s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.419s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info/PKG-INFO
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/_distance_warning_s.ep.rosidl_typesupport_c.c
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/_distance_warning_s.ep.rosidl_typesupport_introspection_c.c
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.419s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/__init__.py
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/libdistance_warning__rosidl_generator_py.so
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action
+[16.419s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action/_check_distance.py
+[16.420s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action/__init__.py
+[16.420s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action/_check_distance_s.c
+[16.420s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/_distance_warning_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.420s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv
+[16.420s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv/__init__.py
+[16.420s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv/_set_threshold_s.c
+[16.420s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv/_set_threshold.py
+[16.446s] Listing '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning'...
+[16.446s] Compiling '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/__init__.py'...
+[16.447s] Listing '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action'...
+[16.447s] Listing '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv'...
+[16.451s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.452s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.453s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.454s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_generator_py.so
+[16.455s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/rust_packages/distance_warning
+[16.455s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust
+[16.455s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/Cargo.toml
+[16.455s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src
+[16.455s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/action.rs
+[16.455s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/action
+[16.455s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/action/rmw.rs
+[16.455s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/lib.rs
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/srv
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/srv/rmw.rs
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/srv.rs
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/build.rs
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/srv/SetThreshold.idl
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/action/CheckDistance.idl
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/srv/SetThreshold.srv
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/srv/SetThreshold_Request.msg
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/srv/SetThreshold_Response.msg
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/action/CheckDistance.action
+[16.456s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_publisher
+[16.457s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_listener
+[16.458s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/set_threshold_service
+[16.459s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_action_server
+[16.459s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_action_client
+[16.460s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/launch
+[16.460s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/launch/distance_warning.launch.py
+[16.460s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/launch/distance_warning_full.launch.py
+[16.460s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_tf_broadcaster
+[16.462s] -- Set runtime path of "/home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_tf_broadcaster" to ""
+[16.462s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/package_run_dependencies/distance_warning
+[16.462s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/parent_prefix_path/distance_warning
+[16.462s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/ament_prefix_path.sh
+[16.462s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/ament_prefix_path.dsv
+[16.463s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/path.sh
+[16.463s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/path.dsv
+[16.463s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/local_setup.bash
+[16.463s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/local_setup.sh
+[16.463s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/local_setup.zsh
+[16.463s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/local_setup.dsv
+[16.463s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/package.dsv
+[16.463s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/packages/distance_warning
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_cExport.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_cExport-noconfig.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_typesupport_fastrtps_cExport.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_cppExport.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_introspection_cExport.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.464s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_cExport.cmake
+[16.465s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_cExport-noconfig.cmake
+[16.465s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_introspection_cppExport.cmake
+[16.465s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.465s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_cppExport.cmake
+[16.465s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_cppExport-noconfig.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_pyExport.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_pyExport-noconfig.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/rosidl_cmake-extras.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/ament_cmake_export_libraries-extras.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/ament_cmake_export_targets-extras.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.466s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.467s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warningConfig.cmake
+[16.467s] -- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warningConfig-version.cmake
+[16.467s] -- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/package.xml
+[16.468s] Invoked command in '/home/daonguyenhp2311/ros2_ws/build/distance_warning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daonguyenhp2311/ros2_ws/build/distance_warning

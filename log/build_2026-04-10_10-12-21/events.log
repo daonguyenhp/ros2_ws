@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000538] (distance_warning) JobQueued: {'identifier': 'distance_warning', 'dependencies': OrderedDict()}
+[0.000609] (distance_warning) JobStarted: {'identifier': 'distance_warning'}
+[0.011757] (distance_warning) JobProgress: {'identifier': 'distance_warning', 'progress': 'cmake'}
+[0.012851] (distance_warning) JobProgress: {'identifier': 'distance_warning', 'progress': 'build'}
+[0.013856] (distance_warning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daonguyenhp2311/ros2_ws/build/distance_warning', '--', '-j20', '-l20'], 'cwd': '/home/daonguyenhp2311/ros2_ws/build/distance_warning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'daonguyenhp2311'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{a48ca040-b733-5089-a206-42688bea3b46}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/daonguyenhp2311'), ('OLDPWD', '/home/daonguyenhp2311'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daonguyenhp2311'), ('NAME', 'LAPTOP-QH4D9121'), ('WSL_INTEROP', '/run/WSL/324_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/flutter/flutter_windows_3.32.4-stable/flutter/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Java/jdk-25/bin:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2025.1/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/flutter/flutter_windows_3.32.4-stable/flutter/bin:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/c/Program Files/Java/jdk-25/bin:/snap/bin'), ('WT_SESSION', '49b26467-0faa-4abf-a248-106b59500d69'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/daonguyenhp2311/ros2_ws/build/distance_warning'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099576] (-) TimerEvent: {}
+[0.122579] (distance_warning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199692] (-) TimerEvent: {}
+[0.231386] (distance_warning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299824] (-) TimerEvent: {}
+[0.387817] (distance_warning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.390497] (distance_warning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.398205] (distance_warning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.399897] (-) TimerEvent: {}
+[0.408551] (distance_warning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.420824] (distance_warning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.452443] (distance_warning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.454711] (distance_warning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500018] (-) TimerEvent: {}
+[0.600308] (-) TimerEvent: {}
+[0.700635] (-) TimerEvent: {}
+[0.800946] (-) TimerEvent: {}
+[0.901288] (-) TimerEvent: {}
+[1.001601] (-) TimerEvent: {}
+[1.101899] (-) TimerEvent: {}
+[1.202216] (-) TimerEvent: {}
+[1.302588] (-) TimerEvent: {}
+[1.402915] (-) TimerEvent: {}
+[1.503585] (-) TimerEvent: {}
+[1.603889] (-) TimerEvent: {}
+[1.704239] (-) TimerEvent: {}
+[1.804667] (-) TimerEvent: {}
+[1.904980] (-) TimerEvent: {}
+[2.005302] (-) TimerEvent: {}
+[2.105652] (-) TimerEvent: {}
+[2.206070] (-) TimerEvent: {}
+[2.306401] (-) TimerEvent: {}
+[2.406751] (-) TimerEvent: {}
+[2.507052] (-) TimerEvent: {}
+[2.607357] (-) TimerEvent: {}
+[2.707657] (-) TimerEvent: {}
+[2.807959] (-) TimerEvent: {}
+[2.908271] (-) TimerEvent: {}
+[3.008558] (-) TimerEvent: {}
+[3.108910] (-) TimerEvent: {}
+[3.209212] (-) TimerEvent: {}
+[3.309593] (-) TimerEvent: {}
+[3.409948] (-) TimerEvent: {}
+[3.510264] (-) TimerEvent: {}
+[3.610697] (-) TimerEvent: {}
+[3.711020] (-) TimerEvent: {}
+[3.811324] (-) TimerEvent: {}
+[3.911636] (-) TimerEvent: {}
+[4.011937] (-) TimerEvent: {}
+[4.112240] (-) TimerEvent: {}
+[4.212544] (-) TimerEvent: {}
+[4.313014] (-) TimerEvent: {}
+[4.413560] (-) TimerEvent: {}
+[4.513904] (-) TimerEvent: {}
+[4.614257] (-) TimerEvent: {}
+[4.714593] (-) TimerEvent: {}
+[4.815017] (-) TimerEvent: {}
+[4.915327] (-) TimerEvent: {}
+[5.015638] (-) TimerEvent: {}
+[5.116071] (-) TimerEvent: {}
+[5.216379] (-) TimerEvent: {}
+[5.316709] (-) TimerEvent: {}
+[5.417151] (-) TimerEvent: {}
+[5.517468] (-) TimerEvent: {}
+[5.617779] (-) TimerEvent: {}
+[5.659855] (distance_warning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.709170] (distance_warning) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[5.717869] (-) TimerEvent: {}
+[5.739637] (distance_warning) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.748312] (distance_warning) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.765576] (distance_warning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.805807] (distance_warning) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.809678] (distance_warning) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.811391] (distance_warning) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.817998] (-) TimerEvent: {}
+[5.918228] (-) TimerEvent: {}
+[5.994063] (distance_warning) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.018378] (-) TimerEvent: {}
+[6.118806] (-) TimerEvent: {}
+[6.206334] (distance_warning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.218890] (-) TimerEvent: {}
+[6.284629] (distance_warning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.300842] (distance_warning) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.318221] (distance_warning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.318454] (distance_warning) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.318560] (distance_warning) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.318960] (-) TimerEvent: {}
+[6.373206] (distance_warning) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[6.373619] (distance_warning) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[6.373662] (distance_warning) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[6.373693] (distance_warning) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.373857] (distance_warning) StderrLine: {'line': b'  CMakeLists.txt:45 (rosidl_target_interfaces)\n'}
+[6.373905] (distance_warning) StderrLine: {'line': b'\n'}
+[6.373942] (distance_warning) StderrLine: {'line': b'\x1b[0m\n'}
+[6.373968] (distance_warning) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[6.373994] (distance_warning) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[6.374019] (distance_warning) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[6.374042] (distance_warning) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.374065] (distance_warning) StderrLine: {'line': b'  CMakeLists.txt:50 (rosidl_target_interfaces)\n'}
+[6.374125] (distance_warning) StderrLine: {'line': b'\n'}
+[6.374155] (distance_warning) StderrLine: {'line': b'\x1b[0m\n'}
+[6.374201] (distance_warning) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[6.374336] (distance_warning) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[6.374377] (distance_warning) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[6.374430] (distance_warning) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.374482] (distance_warning) StderrLine: {'line': b'  CMakeLists.txt:55 (rosidl_target_interfaces)\n'}
+[6.374523] (distance_warning) StderrLine: {'line': b'\n'}
+[6.374552] (distance_warning) StderrLine: {'line': b'\x1b[0m\n'}
+[6.375352] (distance_warning) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[6.375460] (distance_warning) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[6.375509] (distance_warning) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[6.375581] (distance_warning) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.375629] (distance_warning) StderrLine: {'line': b'  CMakeLists.txt:66 (rosidl_target_interfaces)\n'}
+[6.375702] (distance_warning) StderrLine: {'line': b'\n'}
+[6.375763] (distance_warning) StderrLine: {'line': b'\x1b[0m\n'}
+[6.377629] (distance_warning) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.393131] (distance_warning) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.393790] (distance_warning) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.393900] (distance_warning) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.394183] (distance_warning) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.394736] (distance_warning) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.395147] (distance_warning) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.395921] (distance_warning) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.395984] (distance_warning) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.396275] (distance_warning) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.397721] (distance_warning) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.419068] (-) TimerEvent: {}
+[6.480055] (distance_warning) StdoutLine: {'line': b'-- Generating done\n'}
+[6.499647] (distance_warning) StdoutLine: {'line': b'-- Build files have been written to: /home/daonguyenhp2311/ros2_ws/build/distance_warning\n'}
+[6.519230] (-) TimerEvent: {}
+[6.526611] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_c\x1b[0m\n'}
+[6.529591] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_listener\x1b[0m\n'}
+[6.530812] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_tf_broadcaster\x1b[0m\n'}
+[6.531508] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_publisher\x1b[0m\n'}
+[6.534267] (distance_warning) StdoutLine: {'line': b'[  1%] Built target distance_warning__rs\n'}
+[6.535642] (distance_warning) StdoutLine: {'line': b'[  3%] Built target distance_warning__cpp\n'}
+[6.536492] (distance_warning) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/distance_publisher_qos.dir/src/distance_publisher_qos.cpp.o\x1b[0m\n'}
+[6.543994] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.544563] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.545396] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.546618] (distance_warning) StdoutLine: {'line': b'[ 12%] Built target distance_warning__rosidl_generator_c\n'}
+[6.549371] (distance_warning) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_distance_warning\n'}
+[6.555279] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.556214] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c\x1b[0m\n'}
+[6.556430] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.560564] (distance_warning) StdoutLine: {'line': b'[ 19%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp\n'}
+[6.561894] (distance_warning) StdoutLine: {'line': b'[ 26%] Built target distance_warning__rosidl_typesupport_introspection_cpp\n'}
+[6.562156] (distance_warning) StdoutLine: {'line': b'[ 33%] Built target distance_warning__rosidl_typesupport_cpp\n'}
+[6.566363] (distance_warning) StdoutLine: {'line': b'[ 42%] Built target distance_warning__rosidl_typesupport_introspection_c\n'}
+[6.566741] (distance_warning) StdoutLine: {'line': b'[ 48%] Built target distance_warning__rosidl_typesupport_c\n'}
+[6.568768] (distance_warning) StdoutLine: {'line': b'[ 55%] Built target distance_listener\n'}
+[6.569018] (distance_warning) StdoutLine: {'line': b'[ 55%] Built target distance_publisher\n'}
+[6.569919] (distance_warning) StdoutLine: {'line': b'[ 62%] Built target distance_warning__rosidl_typesupport_fastrtps_c\n'}
+[6.572606] (distance_warning) StdoutLine: {'line': b'[ 66%] Built target distance_tf_broadcaster\n'}
+[6.583508] (distance_warning) StdoutLine: {'line': b'[ 66%] Built target distance_warning\n'}
+[6.592497] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target set_threshold_service\x1b[0m\n'}
+[6.594197] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_action_client\x1b[0m\n'}
+[6.594461] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_action_server\x1b[0m\n'}
+[6.595536] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_tf_listener\x1b[0m\n'}
+[6.599216] (distance_warning) StdoutLine: {'line': b'[ 67%] Built target distance_warning__py\n'}
+[6.605338] (distance_warning) StdoutLine: {'line': b'[ 71%] Built target set_threshold_service\n'}
+[6.607861] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_py\x1b[0m\n'}
+[6.609931] (distance_warning) StdoutLine: {'line': b'[ 75%] Built target distance_action_client\n'}
+[6.610589] (distance_warning) StdoutLine: {'line': b'[ 78%] Built target distance_action_server\n'}
+[6.611387] (distance_warning) StdoutLine: {'line': b'[ 82%] Built target distance_tf_listener\n'}
+[6.618762] (distance_warning) StdoutLine: {'line': b'[ 87%] Built target distance_warning__rosidl_generator_py\n'}
+[6.619310] (-) TimerEvent: {}
+[6.626636] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.626796] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.627535] (distance_warning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.635153] (distance_warning) StdoutLine: {'line': b'[ 94%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext\n'}
+[6.635315] (distance_warning) StdoutLine: {'line': b'[ 94%] Built target distance_warning__rosidl_typesupport_c__pyext\n'}
+[6.635533] (distance_warning) StdoutLine: {'line': b'[ 98%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.705852] (distance_warning) StdoutLine: {'line': b'running egg_info\n'}
+[6.706516] (distance_warning) StdoutLine: {'line': b'writing distance_warning.egg-info/PKG-INFO\n'}
+[6.707074] (distance_warning) StdoutLine: {'line': b'writing dependency_links to distance_warning.egg-info/dependency_links.txt\n'}
+[6.707650] (distance_warning) StdoutLine: {'line': b'writing top-level names to distance_warning.egg-info/top_level.txt\n'}
+[6.709852] (distance_warning) StdoutLine: {'line': b"reading manifest file 'distance_warning.egg-info/SOURCES.txt'\n"}
+[6.710330] (distance_warning) StdoutLine: {'line': b"writing manifest file 'distance_warning.egg-info/SOURCES.txt'\n"}
+[6.719536] (-) TimerEvent: {}
+[6.727999] (distance_warning) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_distance_warning_egg\n'}
+[6.819784] (-) TimerEvent: {}
+[6.920230] (-) TimerEvent: {}
+[7.020588] (-) TimerEvent: {}
+[7.120898] (-) TimerEvent: {}
+[7.221379] (-) TimerEvent: {}
+[7.321866] (-) TimerEvent: {}
+[7.422243] (-) TimerEvent: {}
+[7.522656] (-) TimerEvent: {}
+[7.623142] (-) TimerEvent: {}
+[7.723603] (-) TimerEvent: {}
+[7.824092] (-) TimerEvent: {}
+[7.924465] (-) TimerEvent: {}
+[8.024813] (-) TimerEvent: {}
+[8.125294] (-) TimerEvent: {}
+[8.225876] (-) TimerEvent: {}
+[8.326583] (-) TimerEvent: {}
+[8.381085] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DistancePublisherQoS::publishReliable()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.381240] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:49:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpub_reliable_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.381284] (distance_warning) StderrLine: {'line': b'   49 |             \x1b[01;31m\x1b[Kpub_reliable_\x1b[m\x1b[K = public(msg)\n'}
+[8.381336] (distance_warning) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.381385] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DistancePublisherQoS::publishBestEffort()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.381448] (distance_warning) StderrLine: {'line': b'\x1b[01m\x1b[K/home/daonguyenhp2311/ros2_ws/src/distance_warning/src/distance_publisher_qos.cpp:59:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpub_best_effort_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.381496] (distance_warning) StderrLine: {'line': b'   59 |             \x1b[01;31m\x1b[Kpub_best_effort_\x1b[m\x1b[K = public(msg)\n'}
+[8.381545] (distance_warning) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.426710] (-) TimerEvent: {}
+[8.527068] (-) TimerEvent: {}
+[8.627413] (-) TimerEvent: {}
+[8.727829] (-) TimerEvent: {}
+[8.828152] (-) TimerEvent: {}
+[8.878578] (distance_warning) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/distance_publisher_qos.dir/build.make:76: CMakeFiles/distance_publisher_qos.dir/src/distance_publisher_qos.cpp.o] Error 1\n'}
+[8.878752] (distance_warning) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:815: CMakeFiles/distance_publisher_qos.dir/all] Error 2\n'}
+[8.878927] (distance_warning) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.880746] (distance_warning) CommandEnded: {'returncode': 2}
+[8.898219] (distance_warning) JobEnded: {'identifier': 'distance_warning', 'rc': 2}
+[8.909015] (-) EventReactorShutdown: {}

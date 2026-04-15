@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000766] (distance_warning) JobQueued: {'identifier': 'distance_warning', 'dependencies': OrderedDict()}
+[0.001010] (distance_warning) JobStarted: {'identifier': 'distance_warning'}
+[0.005630] (distance_warning) JobProgress: {'identifier': 'distance_warning', 'progress': 'cmake'}
+[0.006127] (distance_warning) JobProgress: {'identifier': 'distance_warning', 'progress': 'build'}
+[0.006719] (distance_warning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daonguyenhp2311/ros2_ws/build/distance_warning', '--', '-j20', '-l20'], 'cwd': '/home/daonguyenhp2311/ros2_ws/build/distance_warning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'daonguyenhp2311'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{a48ca040-b733-5089-a206-42688bea3b46}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/daonguyenhp2311'), ('OLDPWD', '/home/daonguyenhp2311'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daonguyenhp2311'), ('NAME', 'LAPTOP-QH4D9121'), ('WSL_INTEROP', '/run/WSL/324_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/flutter/flutter_windows_3.32.4-stable/flutter/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Java/jdk-25/bin:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2025.1/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/flutter/flutter_windows_3.32.4-stable/flutter/bin:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/c/Program Files/Java/jdk-25/bin:/snap/bin'), ('WT_SESSION', '49b26467-0faa-4abf-a248-106b59500d69'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/daonguyenhp2311/ros2_ws/build/distance_warning'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.048626] (distance_warning) StdoutLine: {'line': b'[  6%] Built target distance_warning__rosidl_generator_c\n'}
+[0.049068] (distance_warning) StdoutLine: {'line': b'[  8%] Built target distance_warning__rs\n'}
+[0.049627] (distance_warning) StdoutLine: {'line': b'[ 10%] Built target distance_warning__cpp\n'}
+[0.054886] (distance_warning) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/distance_listener_qos.dir/src/distance_listener_qos.cpp.o\x1b[0m\n'}
+[0.055065] (distance_warning) StdoutLine: {'line': b'[ 18%] Built target distance_listener\n'}
+[0.055101] (distance_warning) StdoutLine: {'line': b'[ 18%] Built target distance_tf_broadcaster\n'}
+[0.055334] (distance_warning) StdoutLine: {'line': b'[ 22%] Built target distance_publisher_qos\n'}
+[0.056124] (distance_warning) StdoutLine: {'line': b'[ 25%] Built target distance_publisher\n'}
+[0.060181] (distance_warning) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_copy_distance_warning\n'}
+[0.065863] (distance_warning) StdoutLine: {'line': b'[ 32%] Built target distance_warning__rosidl_typesupport_fastrtps_c\n'}
+[0.069336] (distance_warning) StdoutLine: {'line': b'[ 39%] Built target distance_warning__rosidl_typesupport_introspection_c\n'}
+[0.070268] (distance_warning) StdoutLine: {'line': b'[ 46%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp\n'}
+[0.070596] (distance_warning) StdoutLine: {'line': b'[ 53%] Built target distance_warning__rosidl_typesupport_cpp\n'}
+[0.071109] (distance_warning) StdoutLine: {'line': b'[ 60%] Built target distance_warning__rosidl_typesupport_introspection_cpp\n'}
+[0.072857] (distance_warning) StdoutLine: {'line': b'[ 67%] Built target distance_warning__rosidl_typesupport_c\n'}
+[0.086606] (distance_warning) StdoutLine: {'line': b'[ 67%] Built target distance_warning\n'}
+[0.099143] (-) TimerEvent: {}
+[0.103685] (distance_warning) StdoutLine: {'line': b'[ 68%] Built target distance_warning__py\n'}
+[0.105447] (distance_warning) StdoutLine: {'line': b'[ 72%] Built target distance_action_server\n'}
+[0.106570] (distance_warning) StdoutLine: {'line': b'[ 75%] Built target set_threshold_service\n'}
+[0.107039] (distance_warning) StdoutLine: {'line': b'[ 79%] Built target distance_action_client\n'}
+[0.108811] (distance_warning) StdoutLine: {'line': b'[ 82%] Built target distance_tf_listener\n'}
+[0.119421] (distance_warning) StdoutLine: {'line': b'[ 87%] Built target distance_warning__rosidl_generator_py\n'}
+[0.135075] (distance_warning) StdoutLine: {'line': b'[ 94%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.135245] (distance_warning) StdoutLine: {'line': b'[ 94%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext\n'}
+[0.135674] (distance_warning) StdoutLine: {'line': b'[ 98%] Built target distance_warning__rosidl_typesupport_c__pyext\n'}
+[0.199419] (-) TimerEvent: {}
+[0.215655] (distance_warning) StdoutLine: {'line': b'running egg_info\n'}
+[0.216098] (distance_warning) StdoutLine: {'line': b'writing distance_warning.egg-info/PKG-INFO\n'}
+[0.216394] (distance_warning) StdoutLine: {'line': b'writing dependency_links to distance_warning.egg-info/dependency_links.txt\n'}
+[0.216621] (distance_warning) StdoutLine: {'line': b'writing top-level names to distance_warning.egg-info/top_level.txt\n'}
+[0.217905] (distance_warning) StdoutLine: {'line': b"reading manifest file 'distance_warning.egg-info/SOURCES.txt'\n"}
+[0.218250] (distance_warning) StdoutLine: {'line': b"writing manifest file 'distance_warning.egg-info/SOURCES.txt'\n"}
+[0.236923] (distance_warning) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_distance_warning_egg\n'}
+[0.299645] (-) TimerEvent: {}
+[0.400039] (-) TimerEvent: {}
+[0.500564] (-) TimerEvent: {}
+[0.601054] (-) TimerEvent: {}
+[0.701533] (-) TimerEvent: {}
+[0.801930] (-) TimerEvent: {}
+[0.902528] (-) TimerEvent: {}
+[1.002948] (-) TimerEvent: {}
+[1.103526] (-) TimerEvent: {}
+[1.204085] (-) TimerEvent: {}
+[1.304615] (-) TimerEvent: {}
+[1.404984] (-) TimerEvent: {}
+[1.505344] (-) TimerEvent: {}
+[1.605667] (-) TimerEvent: {}
+[1.706139] (-) TimerEvent: {}
+[1.806629] (-) TimerEvent: {}
+[1.907156] (-) TimerEvent: {}
+[2.007524] (-) TimerEvent: {}
+[2.108120] (-) TimerEvent: {}
+[2.208533] (-) TimerEvent: {}
+[2.309102] (-) TimerEvent: {}
+[2.409532] (-) TimerEvent: {}
+[2.509975] (-) TimerEvent: {}
+[2.610420] (-) TimerEvent: {}
+[2.710840] (-) TimerEvent: {}
+[2.811234] (-) TimerEvent: {}
+[2.911617] (-) TimerEvent: {}
+[3.012168] (-) TimerEvent: {}
+[3.112574] (-) TimerEvent: {}
+[3.212919] (-) TimerEvent: {}
+[3.313400] (-) TimerEvent: {}
+[3.413788] (-) TimerEvent: {}
+[3.514222] (-) TimerEvent: {}
+[3.614593] (-) TimerEvent: {}
+[3.715031] (-) TimerEvent: {}
+[3.815414] (-) TimerEvent: {}
+[3.915852] (-) TimerEvent: {}
+[4.016530] (-) TimerEvent: {}
+[4.116862] (-) TimerEvent: {}
+[4.217206] (-) TimerEvent: {}
+[4.317647] (-) TimerEvent: {}
+[4.418126] (-) TimerEvent: {}
+[4.518538] (-) TimerEvent: {}
+[4.618975] (-) TimerEvent: {}
+[4.719405] (-) TimerEvent: {}
+[4.819870] (-) TimerEvent: {}
+[4.920180] (-) TimerEvent: {}
+[5.020495] (-) TimerEvent: {}
+[5.121117] (-) TimerEvent: {}
+[5.221609] (-) TimerEvent: {}
+[5.322179] (-) TimerEvent: {}
+[5.422651] (-) TimerEvent: {}
+[5.523016] (-) TimerEvent: {}
+[5.623518] (-) TimerEvent: {}
+[5.723952] (-) TimerEvent: {}
+[5.729548] (distance_warning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable distance_listener_qos\x1b[0m\n'}
+[5.824171] (-) TimerEvent: {}
+[5.924570] (-) TimerEvent: {}
+[6.024928] (-) TimerEvent: {}
+[6.074140] (distance_warning) StdoutLine: {'line': b'[100%] Built target distance_listener_qos\n'}
+[6.083584] (distance_warning) CommandEnded: {'returncode': 0}
+[6.085005] (distance_warning) JobProgress: {'identifier': 'distance_warning', 'progress': 'install'}
+[6.091430] (distance_warning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/daonguyenhp2311/ros2_ws/build/distance_warning'], 'cwd': '/home/daonguyenhp2311/ros2_ws/build/distance_warning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'daonguyenhp2311'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{a48ca040-b733-5089-a206-42688bea3b46}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/daonguyenhp2311'), ('OLDPWD', '/home/daonguyenhp2311'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'daonguyenhp2311'), ('NAME', 'LAPTOP-QH4D9121'), ('WSL_INTEROP', '/run/WSL/324_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/flutter/flutter_windows_3.32.4-stable/flutter/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Java/jdk-25/bin:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2025.1/bin:/mnt/c/Users/ASUS/AppData/Roaming/npm:/mnt/c/Users/ASUS/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/flutter/flutter_windows_3.32.4-stable/flutter/bin:/mnt/c/Users/ASUS/.dotnet/tools:/mnt/c/Program Files/Java/jdk-25/bin:/snap/bin'), ('WT_SESSION', '49b26467-0faa-4abf-a248-106b59500d69'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/daonguyenhp2311/ros2_ws/build/distance_warning'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/daonguyenhp2311/ros2_ws/install/distance_warning:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[6.096754] (distance_warning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.097239] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/rosidl_interfaces/distance_warning\n'}
+[6.097337] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning\n'}
+[6.097560] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg\n'}
+[6.097636] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.097708] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action\n'}
+[6.097829] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail\n'}
+[6.097865] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__struct.h\n'}
+[6.097961] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__functions.h\n'}
+[6.098052] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__type_support.h\n'}
+[6.098350] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__functions.c\n'}
+[6.098424] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/check_distance.h\n'}
+[6.098585] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv\n'}
+[6.098683] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail\n'}
+[6.098774] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__type_support.h\n'}
+[6.098994] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__functions.h\n'}
+[6.099069] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__functions.c\n'}
+[6.099111] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__struct.h\n'}
+[6.099210] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/set_threshold.h\n'}
+[6.099244] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/library_path.sh\n'}
+[6.099319] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/library_path.dsv\n'}
+[6.099466] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_generator_c.so\n'}
+[6.099626] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning\n'}
+[6.099682] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg\n'}
+[6.099713] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.099741] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action\n'}
+[6.099769] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail\n'}
+[6.099870] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__rosidl_typesupport_fastrtps_c.h\n'}
+[6.100063] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv\n'}
+[6.100116] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail\n'}
+[6.100146] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__rosidl_typesupport_fastrtps_c.h\n'}
+[6.100239] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_fastrtps_c.so\n'}
+[6.100277] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning\n'}
+[6.100351] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg\n'}
+[6.100442] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.100602] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action\n'}
+[6.100798] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/check_distance.hpp\n'}
+[6.100830] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail\n'}
+[6.100864] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__traits.hpp\n'}
+[6.100892] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__struct.hpp\n'}
+[6.100956] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__type_support.hpp\n'}
+[6.101096] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__builder.hpp\n'}
+[6.101147] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv\n'}
+[6.101241] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail\n'}
+[6.101347] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__type_support.hpp\n'}
+[6.101383] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__builder.hpp\n'}
+[6.101449] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__struct.hpp\n'}
+[6.101609] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__traits.hpp\n'}
+[6.101645] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/set_threshold.hpp\n'}
+[6.101674] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning\n'}
+[6.101703] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg\n'}
+[6.101730] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.101757] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action\n'}
+[6.101783] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail\n'}
+[6.101810] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.101836] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/dds_fastrtps\n'}
+[6.101865] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv\n'}
+[6.101893] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail\n'}
+[6.101939] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.101969] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/dds_fastrtps\n'}
+[6.101996] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.102024] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning\n'}
+[6.102051] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg\n'}
+[6.102077] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.102104] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action\n'}
+[6.102129] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail\n'}
+[6.102157] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__rosidl_typesupport_introspection_c.h\n'}
+[6.102183] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__type_support.c\n'}
+[6.102209] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv\n'}
+[6.102233] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail\n'}
+[6.102257] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__rosidl_typesupport_introspection_c.h\n'}
+[6.102281] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__type_support.c\n'}
+[6.102305] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_introspection_c.so\n'}
+[6.102330] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_c.so\n'}
+[6.102355] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning\n'}
+[6.102382] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action\n'}
+[6.102408] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail\n'}
+[6.102439] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.102467] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/action/detail/check_distance__type_support.cpp\n'}
+[6.102494] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv\n'}
+[6.102520] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail\n'}
+[6.102545] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__type_support.cpp\n'}
+[6.102570] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/include/distance_warning/distance_warning/srv/detail/set_threshold__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.102596] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_introspection_cpp.so\n'}
+[6.102622] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_typesupport_cpp.so\n'}
+[6.102649] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/pythonpath.sh\n'}
+[6.102675] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/pythonpath.dsv\n'}
+[6.102701] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info\n'}
+[6.102726] (distance_warning) StdoutLine: {'line': b'-- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.102754] (distance_warning) StdoutLine: {'line': b'-- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.102779] (distance_warning) StdoutLine: {'line': b'-- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.102804] (distance_warning) StdoutLine: {'line': b'-- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.102828] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning\n'}
+[6.102854] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/_distance_warning_s.ep.rosidl_typesupport_c.c\n'}
+[6.102879] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.102920] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/_distance_warning_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.102957] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.102986] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/__init__.py\n'}
+[6.103013] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.103039] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/libdistance_warning__rosidl_generator_py.so\n'}
+[6.103065] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action\n'}
+[6.103091] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action/_check_distance.py\n'}
+[6.103117] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action/__init__.py\n'}
+[6.103143] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action/_check_distance_s.c\n'}
+[6.103172] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/_distance_warning_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.103197] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv\n'}
+[6.103222] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv/__init__.py\n'}
+[6.103248] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv/_set_threshold_s.c\n'}
+[6.103273] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv/_set_threshold.py\n'}
+[6.122594] (distance_warning) StdoutLine: {'line': b"Listing '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning'...\n"}
+[6.122738] (distance_warning) StdoutLine: {'line': b"Listing '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/action'...\n"}
+[6.122818] (distance_warning) StdoutLine: {'line': b"Listing '/home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/srv'...\n"}
+[6.125032] (-) TimerEvent: {}
+[6.125519] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.125755] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.125981] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/local/lib/python3.10/dist-packages/distance_warning/distance_warning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.126378] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/libdistance_warning__rosidl_generator_py.so\n'}
+[6.126489] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/rust_packages/distance_warning\n'}
+[6.126548] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust\n'}
+[6.126799] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/Cargo.toml\n'}
+[6.126840] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src\n'}
+[6.127018] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/action.rs\n'}
+[6.127092] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/action\n'}
+[6.127173] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/action/rmw.rs\n'}
+[6.127266] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/lib.rs\n'}
+[6.127303] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/srv\n'}
+[6.127339] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/srv/rmw.rs\n'}
+[6.127367] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/src/srv.rs\n'}
+[6.127599] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/rust/build.rs\n'}
+[6.127683] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/srv/SetThreshold.idl\n'}
+[6.127716] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/action/CheckDistance.idl\n'}
+[6.127745] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/srv/SetThreshold.srv\n'}
+[6.127770] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/srv/SetThreshold_Request.msg\n'}
+[6.127797] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/srv/SetThreshold_Response.msg\n'}
+[6.127824] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/action/CheckDistance.action\n'}
+[6.127850] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_publisher\n'}
+[6.127938] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_listener\n'}
+[6.127983] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/set_threshold_service\n'}
+[6.128012] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_action_server\n'}
+[6.128042] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_action_client\n'}
+[6.128276] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/launch\n'}
+[6.128327] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/launch/distance_warning.launch.py\n'}
+[6.128364] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/launch/distance_warning_full.launch.py\n'}
+[6.128392] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_tf_broadcaster\n'}
+[6.128418] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_tf_listener\n'}
+[6.128443] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_publisher_qos\n'}
+[6.128468] (distance_warning) StdoutLine: {'line': b'-- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_listener_qos\n'}
+[6.130476] (distance_warning) StdoutLine: {'line': b'-- Set runtime path of "/home/daonguyenhp2311/ros2_ws/install/distance_warning/lib/distance_warning/distance_listener_qos" to ""\n'}
+[6.130746] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/package_run_dependencies/distance_warning\n'}
+[6.130841] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/parent_prefix_path/distance_warning\n'}
+[6.130938] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/ament_prefix_path.sh\n'}
+[6.131029] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/ament_prefix_path.dsv\n'}
+[6.131121] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/path.sh\n'}
+[6.131288] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/environment/path.dsv\n'}
+[6.131369] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/local_setup.bash\n'}
+[6.131551] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/local_setup.sh\n'}
+[6.131654] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/local_setup.zsh\n'}
+[6.131854] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/local_setup.dsv\n'}
+[6.131932] (distance_warning) StdoutLine: {'line': b'-- Installing: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/package.dsv\n'}
+[6.131977] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/ament_index/resource_index/packages/distance_warning\n'}
+[6.132083] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_cExport.cmake\n'}
+[6.132249] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.132405] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.132576] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.132641] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_cppExport.cmake\n'}
+[6.132674] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.132705] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.132732] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.132758] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.132792] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_cExport.cmake\n'}
+[6.132818] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.132846] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.132873] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.132899] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_cppExport.cmake\n'}
+[6.132925] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warning__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.132950] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_pyExport.cmake\n'}
+[6.132976] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/export_distance_warning__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.133002] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/rosidl_cmake-extras.cmake\n'}
+[6.133030] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.133058] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.133085] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.133110] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.133137] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.133162] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.133187] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warningConfig.cmake\n'}
+[6.133212] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/cmake/distance_warningConfig-version.cmake\n'}
+[6.133237] (distance_warning) StdoutLine: {'line': b'-- Up-to-date: /home/daonguyenhp2311/ros2_ws/install/distance_warning/share/distance_warning/package.xml\n'}
+[6.134467] (distance_warning) CommandEnded: {'returncode': 0}
+[6.150098] (distance_warning) JobEnded: {'identifier': 'distance_warning', 'rc': 0}
+[6.151128] (-) EventReactorShutdown: {}

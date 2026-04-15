@@ -13,9 +13,17 @@
   <build_depend>rosidl_default_generators</build_depend>
   <exec_depend>rosidl_default_runtime</exec_depend>
   <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- Mathematical processing for coordinate transformations -->
+  <depend>tf2</depend>
+  <!-- Provide tools to enable TF2 to communicate with ROS -->
+  <depend>tf2_ros</depend>
+  <!-- Contains standard geometric data structures of ROS -->
+  <depend>tf2_geometry_msgs</depend>
+  <depend>geometry_msgs</depend>
   <!-- END UPDATE -->
 
-  <depend>rclcpp</depend>
+  <depend>rclcpp</depend>  
   <depend>std_msgs</depend>
   <depend>rclcpp_action</depend>
 
